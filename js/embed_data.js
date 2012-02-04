@@ -38,4 +38,8 @@ EmbedData = {
     regex: 'http[s]?://www.slideshare.net/[\\w-]+/[\\w-]+',
     oembed: 'http://www.slideshare.net/api/oembed/2?format=json&url='
   }
+  'gist': {
+    regex: 'https://gist.github.com/[\\d+]',
+    oembed: 'https://gist.github.com/$0.js'
+  }
 };
